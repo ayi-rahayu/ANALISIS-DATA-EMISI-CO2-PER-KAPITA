@@ -14,7 +14,7 @@ Dengan menganalisis data emisi per kapita dari seluruh dunia, kita dapat mempero
 
 - Data emisi CO₂ per kapita (indikator: `EN.ATM.CO2E.PC`)
 - Sumber: [World Bank Open Data](https://data.worldbank.org/indicator/EN.ATM.CO2E.PC)
-- Cakupan waktu: 1960–2022
+- Cakupan waktu: 1960–2023
 - Satuan: Metrik ton per kapita per tahun
 
 ## 🛠️ Metodologi Analisis
@@ -27,10 +27,11 @@ Dengan menganalisis data emisi per kapita dari seluruh dunia, kita dapat mempero
 
 ## 📊 Hasil Visualisasi
 
-- **Peta Dunia Emisi**: Visualisasi peta global berdasarkan emisi per kapita.
-- **Grafik Tren Negara Tertentu**: Amerika Serikat, Tiongkok, Indonesia, Norwegia, India, dan lainnya.
-- **Perbandingan Regional**: ASEAN vs OECD vs Sub-Sahara Afrika.
-- **Korelasi Emisi dan GDP**: Tren umum bahwa negara maju memiliki emisi per kapita lebih tinggi.
+- **Tren Global Emisi CO2**: Visualisasi peta global berdasarkan emisi per kapita.
+- **Negara dengan Emisi Tertinggi (2023)**: 10 Negara dengan Emisi Tertinggi di dunia tahun 2023.
+- **Analisis Korelasi Multinegara (2023)**: Distribusi Emisi CO₂ per Kapita Tahun 2023.
+- **Negara-negara ASEAN**: Tren Emisi CO₂ per Kapita di Negara ASEAN.
+- **Negara Indonesia**: Tren Emisi CO₂ per Kapita di Indonesia (1960–2023).
 
 ## 📌 Insight Utama
 
@@ -53,7 +54,7 @@ project-root/
 ├── notebooks/
 │   └── analisis_emisi_global.ipynb
 ├── output/
-│   └── peta_dunia_emisi.png
+│   └── emisi_per_kapita_bersih.csv
 └── README.md
 ```
 
@@ -61,7 +62,6 @@ project-root/
 
 - `pandas`: untuk pemrosesan data
 - `matplotlib` & `seaborn`: untuk visualisasi grafik
-- `plotly` atau `folium`: untuk visualisasi interaktif dan peta dunia
 - `numpy`: untuk analisis numerik tambahan
 
 ## 🚀 Pengembangan Lanjutan
