@@ -5,7 +5,7 @@
 Studi ini bertujuan untuk memahami dinamika emisi karbon dioksida (CO₂) per kapita secara global dalam jangka panjang. Fokusnya adalah pada pola tren di berbagai negara, identifikasi negara-negara dengan kontribusi tertinggi maupun terendah, serta kemungkinan kaitannya dengan pertumbuhan ekonomi dan demografi.
 
 ## 🧠 Latar Belakang
-
+<img src="images/emisi_global.jpg" alt="Visualisasi Emisi Global" width="600"/>
 Dalam beberapa dekade terakhir, emisi karbon menjadi isu sentral dalam diskusi perubahan iklim global. CO₂ adalah gas rumah kaca utama yang dihasilkan dari pembakaran bahan bakar fosil, proses industri, dan aktivitas manusia lainnya. Tren emisi per kapita antarnegara menunjukkan variasi signifikan, tergantung pada tingkat pembangunan, bauran energi, dan kebijakan lingkungan.
 
 Dengan menganalisis data emisi per kapita dari seluruh dunia, kita dapat memperoleh pemahaman yang lebih luas mengenai perbedaan kontribusi emisi dan efektivitas strategi pengurangannya di berbagai konteks negara.
@@ -49,7 +49,7 @@ project-root/
 ├── data/
 │   └── co2_per_capita_world.csv
 ├── image/
-│   └── co2_per_capita_world.csv
+│   └── emisi_global.jpg
 ├── notebooks/
 │   └── analisis_emisi_global.ipynb
 ├── output/
